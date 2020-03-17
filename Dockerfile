@@ -1,4 +1,4 @@
-FROM python:3.8-slim AS base
+FROM mcr.microsoft.com/azure-functions/python:2.0 AS base
 
 # Setup env
 ENV LANG C.UTF-8
